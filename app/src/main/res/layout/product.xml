@@ -14,9 +14,14 @@
         app:cardBackgroundColor="@color/grey_750">
 
         <ImageView
-            android:layout_width="match_parent"
+            android:layout_width="100dp"
+            android:scaleX="3.4"
+            android:scaleY="3.4"
+            android:translationX="30dp"
+            android:translationY="20dp"
+            android:layout_gravity="bottom|center_horizontal"
             android:id="@+id/ivRecommendedProductImage"
-            android:layout_height="match_parent"/>
+            android:layout_height="wrap_content"/>
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"

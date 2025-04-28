@@ -42,7 +42,7 @@ object RetailDatabase {
     val Products = listOf(
         Product(
             productCategory = "T-Shirt Men",
-            productImage = R.drawable.home,
+            productImage = R.drawable.shirtgrey,
             productDescription = "Casual T-Shirt Grey",
             productPrice = 24.00f,
             isLiked = true,
@@ -50,7 +50,7 @@ object RetailDatabase {
         ),
         Product(
             productCategory = "Outwear Men",
-            productImage = R.drawable.home,
+            productImage = R.drawable.blackhoodie,
             productDescription = "Fleece Hoodie Black",
             productPrice = 68.00f,
             productPriceOne = 84.00f,
@@ -75,7 +75,7 @@ object RetailDatabase {
         ),
         Product(
             productCategory = "Outwear Women",
-            productImage = R.drawable.home,
+            productImage = R.drawable.hoodiepink,
             productDescription = "Casual Hoodie Pink",
             productPrice = 45.00f,
             productPriceOne = 56.00f,
@@ -83,7 +83,7 @@ object RetailDatabase {
         ),
         Product(
             productCategory = "Outwear Men",
-            productImage = R.drawable.home,
+            productImage = R.drawable.hoodiecream,
             productDescription = "Casual Hoodie Cream",
             productPrice = 50.00f,
             productPriceOne = 59.00f,
@@ -92,7 +92,7 @@ object RetailDatabase {
         ),
         Product(
             productCategory = "Long pants Men",
-            productImage = R.drawable.home,
+            productImage = R.drawable.greypants,
             productDescription = "Long Casual pants Grey",
             productPrice = 70.00f,
             isLiked = true
