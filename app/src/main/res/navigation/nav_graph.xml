@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.adenikinju.productapplicationviewskotlin.screens.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+    <fragment
+        android:id="@+id/discover"
+        android:name="com.adenikinju.productapplicationviewskotlin.screens.DiscoverFragment"
+        android:label="fragment_discover"
+        tools:layout="@layout/fragment_default_home" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/wishlist"
+        android:name="com.adenikinju.productapplicationviewskotlin.screens.WishListFragment"
+        android:label="fragment_wish_list"
+        tools:layout="@layout/fragment_wish_list" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/account"
+        android:name="com.adenikinju.productapplicationviewskotlin.screens.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+
+
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="com.adenikinju.productapplicationviewskotlin.screens.FilterFragment"
+        android:label="Filter"
+        tools:layout="@layout/fragment_filter" />
+</navigation>
